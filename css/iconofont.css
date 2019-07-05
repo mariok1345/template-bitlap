@@ -1,0 +1,653 @@
+/* primer icono */
+@font-face {
+  font-family: 'soft';
+  src: url('../font/soft.eot?41709894');
+  src: url('../font/soft.eot?41709894#iefix') format('embedded-opentype'),
+       url('../font/soft.woff2?41709894') format('woff2'),
+       url('../font/soft.woff?41709894') format('woff'),
+       url('../font/soft.ttf?41709894') format('truetype'),
+       url('../font/soft.svg?41709894#soft') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'soft';
+    src: url('../font/soft.svg?41709894#soft') format('svg');
+  }
+}
+*/
+
+ [class$="ware"]:before, [class*="ware "]:before {
+  font-family: "soft";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.softwareware:before { content: '\e800'; } /* '' */
+
+/* segundo icono */
+
+@font-face {
+  font-family: 'desing';
+  src: url('../font/desing.eot?58594007');
+  src: url('../font/desing.eot?58594007#iefix') format('embedded-opentype'),
+       url('../font/desing.woff2?58594007') format('woff2'),
+       url('../font/desing.woff?58594007') format('woff'),
+       url('../font/desing.ttf?58594007') format('truetype'),
+       url('../font/desing.svg?58594007#desing') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'desing';
+    src: url('../font/desing.svg?58594007#desing') format('svg');
+  }
+}
+*/
+
+ [class$="ds"]:before, [class*="ds "]:before {
+  font-family: "desing";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.diseñods:before { content: '\e800'; } /* '' */
+
+/* tercer icono */
+@font-face {
+  font-family: 'estrategia';
+  src: url('../font/estrategia.eot?80909885');
+  src: url('../font/estrategia.eot?80909885#iefix') format('embedded-opentype'),
+       url('../font/estrategia.woff2?80909885') format('woff2'),
+       url('../font/estrategia.woff?80909885') format('woff'),
+       url('../font/estrategia.ttf?80909885') format('truetype'),
+       url('../font/estrategia.svg?80909885#estrategia') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'estrategia';
+    src: url('../font/estrategia.svg?80909885#estrategia') format('svg');
+  }
+}
+*/
+
+ [class$="mn"]:before, [class*="mn "]:before {
+  font-family: "estrategia";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.estrategiamn:before { content: '\e800'; } /* '' */
+/*ultimo icono */
+@font-face {
+  font-family: 'emprend';
+  src: url('../font/emprend.eot?77993685');
+  src: url('../font/emprend.eot?77993685#iefix') format('embedded-opentype'),
+       url('../font/emprend.woff2?77993685') format('woff2'),
+       url('../font/emprend.woff?77993685') format('woff'),
+       url('../font/emprend.ttf?77993685') format('truetype'),
+       url('../font/emprend.svg?77993685#emprend') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'emprend';
+    src: url('../font/emprend.svg?77993685#emprend') format('svg');
+  }
+}
+*/
+
+ [class$="rsi"]:before, [class*="rsi "]:before {
+  font-family: "emprend";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.emprendimientorsi:before { content: '\e800'; } /* '' */
+/* icono de flecha */
+@font-face {
+  font-family: 'arrow';
+  src: url('../font/arrow.eot?70599593');
+  src: url('../font/arrow.eot?70599593#iefix') format('embedded-opentype'),
+       url('../font/arrow.woff2?70599593') format('woff2'),
+       url('../font/arrow.woff?70599593') format('woff'),
+       url('../font/arrow.ttf?70599593') format('truetype'),
+       url('../font/arrow.svg?70599593#arrow') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'arrow';
+    src: url('../font/arrow.svg?70599593#arrow') format('svg');
+  }
+}
+*/
+
+ [class$="a"]:before, [class*="a "]:before {
+  font-family: "arrow";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.angle-righta:before { content: '\f105'; } /* '' */
+
+/* icono facebook */
+@font-face {
+  font-family: 'f';
+  src: url('../font/f.eot?70391249');
+  src: url('../font/f.eot?70391249#iefix') format('embedded-opentype'),
+       url('../font/f.woff2?70391249') format('woff2'),
+       url('../font/f.woff?70391249') format('woff'),
+       url('../font/f.ttf?70391249') format('truetype'),
+       url('../font/f.svg?70391249#f') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'f';
+    src: url('../font/f.svg?70391249#f') format('svg');
+  }
+}
+*/
+
+ [class$="ero"]:before, [class*="ero "]:before {
+  font-family: "f";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.facebookero:before { content: '\f09a'; } /* '' */
+/* icono de camara */
+@font-face {
+  font-family: 'c';
+  src: url('../font/c.eot?53985417');
+  src: url('../font/c.eot?53985417#iefix') format('embedded-opentype'),
+       url('../font/c.woff2?53985417') format('woff2'),
+       url('../font/c.woff?53985417') format('woff'),
+       url('../font/c.ttf?53985417') format('truetype'),
+       url('../font/c.svg?53985417#c') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'c';
+    src: url('../font/c.svg?53985417#c') format('svg');
+  }
+}
+*/
+
+ [class$="flahs"]:before, [class*="flahs "]:before {
+  font-family: "c";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.cameraflahs:before { content: '\f4f7'; } /* '' */
+/* letras de bitlab */
+@font-face {
+  font-family: 'b';
+  src: url('../font/b.eot?43994811');
+  src: url('../font/b.eot?43994811#iefix') format('embedded-opentype'),
+       url('../font/b.woff2?43994811') format('woff2'),
+       url('../font/b.woff?43994811') format('woff'),
+       url('../font/b.ttf?43994811') format('truetype'),
+       url('../font/b.svg?43994811#b') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'b';
+    src: url('../font/b.svg?43994811#b') format('svg');
+  }
+}
+*/
+
+ [class$="b1"]:before, [class*="b1 "]:before {
+  font-family: "b";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.primerab1:before { content: '\e800'; } /* '' */
+/* segunda letra */
+@font-face {
+  font-family: 'bit';
+  src: url('../font/bit.eot?72532882');
+  src: url('../font/bit.eot?72532882#iefix') format('embedded-opentype'),
+       url('../font/bit.woff2?72532882') format('woff2'),
+       url('../font/bit.woff?72532882') format('woff'),
+       url('../font/bit.ttf?72532882') format('truetype'),
+       url('../font/bit.svg?72532882#bit') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'bit';
+    src: url('../font/bit.svg?72532882#bit') format('svg');
+  }
+}
+*/
+
+ [class$="bit"]:before, [class*="bit "]:before {
+  font-family: "bit";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.segundabit:before { content: '\e800'; } /* '' */
+/* menu */
+@font-face {
+  font-family: 'menu';
+  src: url('../font/menu.eot?59967154');
+  src: url('../font/menu.eot?59967154#iefix') format('embedded-opentype'),
+       url('../font/menu.woff2?59967154') format('woff2'),
+       url('../font/menu.woff?59967154') format('woff'),
+       url('../font/menu.ttf?59967154') format('truetype'),
+       url('../font/menu.svg?59967154#menu') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'menu';
+    src: url('../font/menu.svg?59967154#menu') format('svg');
+  }
+}
+*/
+
+ [class$="togle"]:before, [class*="togle "]:before {
+  font-family: "menu";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.menutogle:before { content: '\f0c9'; } /* '' */
+/* close menu */
+@font-face {
+  font-family: 'closep';
+  src: url('../font/closep.eot?32533252');
+  src: url('../font/closep.eot?32533252#iefix') format('embedded-opentype'),
+       url('../font/closep.woff2?32533252') format('woff2'),
+       url('../font/closep.woff?32533252') format('woff'),
+       url('../font/closep.ttf?32533252') format('truetype'),
+       url('../font/closep.svg?32533252#closep') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'closep';
+    src: url('../font/closep.svg?32533252#closep') format('svg');
+  }
+}
+*/
+
+ [class$="mnu"]:before, [class*="mnu "]:before {
+  font-family: "closep";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.closemnu:before { content: '\f139'; } /* '' */

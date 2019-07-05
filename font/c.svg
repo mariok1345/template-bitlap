@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="c" horiz-adv-x="1000" >
+<font-face font-family="c" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="camera" unicode="&#xf4f7;" d="M0 96v508q0 64 47 110t112 46h737q65 0 112-46t46-110v-508q0-65-46-111t-112-45h-737q-66 0-112 45t-47 111z m114 508q0-19 13-31t32-13q18 0 31 13t13 31-13 31-31 13-32-13-13-31z m179-245q0-64 32-118t85-85 118-32 117 32 85 85 32 118-32 117-85 85-117 32-118-32-85-85-32-117z m88 0q0-61 43-104t104-43 103 43 43 104q0 60-43 103t-103 42-104-42-43-103z" horiz-adv-x="1054.7" />
+</font>
+</defs>
+</svg>

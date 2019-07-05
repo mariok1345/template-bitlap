@@ -1,0 +1,283 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.her {
+
+  height:100px;
+}
+
+.menutogle{
+  color:white; font-size:35px; margin:auto; display:none;
+}
+.closemnu{
+color:white; font-size:25px; margin:auto;
+}
+.oculto{
+  line-height: 3.9rem;
+  padding: 0 2.5rem;
+  display:none;
+}
+
+/* estilo de enlaces */
+.item {
+  font-family: 'Lato';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.menutogle{
+  color:white; font-size:35px; margin:auto; display:none;
+}
+.closemnu{
+color:white; font-size:25px; margin:auto;
+}
+.oculto{
+  line-height: 3.9rem;
+  padding: 0 2.5rem;
+  display:none;
+}
+/* icono bitlab */
+  .bitlap-a {
+    font-size: 36px;
+    color: #4E05B2;
+    padding: 10px;
+    font-weight: 700;
+    margin-right:900px;
+  }
+
+/* jquery efectos para el nav en el ul */
+#navb {
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  transition: background-color 0.4s ease-out;
+}
+.nav{
+  width: 100%;
+  background:white;
+}
+
+
+
+/* posicion del menu */
+#navb ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  position: fixed;
+  list-style: none;
+}
+
+nav a {
+  color: #4E05B2;
+  line-height: 3.9rem;
+  padding: 0 2.5rem;
+  text-decoration: none;
+  display: block;
+  font-family: 'Lato';
+}
+nav .item-a:hover{
+  color:  #19D9D9;
+  border-bottom:2px solid #19D9D9;
+  margin-bottom: 2px;
+}
+
+/* segundo menu */
+
+.nav-2{
+  width:90%;
+  background:white;
+  border: 1px solid #DFDFDF;
+  display: flex;
+  justify-content: center;
+  margin:auto;
+}
+.item-b:hover{
+  color: blue;
+  }
+/* tema  */
+.sub-tem{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+margin-left:240px;
+
+
+color: #000000;
+
+}
+/* estilos de cursos */
+.container-c{
+  display: grid;
+  grid-template-columns:630px 630px;
+  grid-template-rows:420px 420px 420px 420px;
+  justify-content: center;
+  grid-gap:5px;
+
+}
+.card {
+
+    display: grid;
+    grid-template-columns: 260px 340px;
+    grid-template-rows: 260px 100px;
+    justify-content: center;
+
+
+}
+
+.a{
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  box-sizing: border-box;
+
+}
+.c-1{
+  grid-column: 1;
+  grid-row: 1/3;
+  background-image:url('../img/curs-1.jpg');
+  background-repeat: no-repeat;
+  background-size:260px;
+}
+.c-a{
+  grid-column: 1;
+  grid-row: 1/3;
+  background-image:url('../img/curs-2.jpg');
+  background-repeat: no-repeat;
+  background-size:260px;
+}
+.c-b{
+  grid-column: 1;
+  grid-row: 1/3;
+  background-image:url('../img/curs-3.jpg');
+  background-repeat: no-repeat;
+  background-size:260px;
+}
+.c-c{
+  grid-column: 1;
+  grid-row: 1/3;
+  background-image:url('../img/curs-4.jpg');
+  background-repeat: no-repeat;
+  background-size:260px;
+}
+.c-d{
+  grid-column: 1;
+  grid-row: 1/3;
+  background-image:url('../img/curs-5.jpg');
+  background-repeat: no-repeat;
+  background-size:260px;
+}
+.c-e{
+  grid-column: 1;
+  grid-row: 1/3;
+  background-image:url('../img/curs-6.jpg');
+  background-repeat: no-repeat;
+  background-size:260px;
+}
+.c-f{
+  grid-column: 1;
+  grid-row: 1/3;
+  background-image:url('../img/curs-4.jpg');
+  background-repeat: no-repeat;
+  background-size:260px;
+}
+.c-g{
+  grid-column: 1;
+  grid-row: 1/3;
+  background-image:url('../img/curs-3.jpg');
+  background-repeat: no-repeat;
+  background-size:260px;
+}
+.tems-curs {
+  font-family: 'Montserrat';
+  font-weight:bold;
+  color: black;
+  font-size: 25px;
+  padding-left: 25px;
+  width: 330px;
+  margin: 0px;
+}
+
+.item-prof {
+  font-family: 'Lato';
+  color: black;
+  font-weight: 900;
+  font-size: 14px;
+  padding-left:25px;
+}
+
+.tems-curs-cont {
+  color: #2E2E2E;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  padding-left:25px;
+  margin-bottom: 5px;
+}
+/* botones y hora */
+.hora{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #000000;
+
+}
+/* estilos botones */
+.button-1{
+  border: 1.5px solid #481AE7;
+  border-radius: 4px;
+  height:40px;
+  width:100px;
+  box-sizing: border-box;
+  color:#481AE7;
+  text-align: center;
+  align-items: center;
+  padding-top:7px;
+  text-decoration: none;
+
+}
+.button-1:hover{
+
+  background:#481AE7;
+  color: white;
+}
+
+.c-3{
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* estilos de footer */
+.foot-b{
+  display: grid;
+  height: 60px;
+  grid-template-columns:750px 1fr 750px;
+  background: #070512;
+  text-align: center;
+  align-items: center;
+}
+/* contenido del footer */
+.fo-text{
+  font-family:'Hind';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #FFFFFF;
+
+ }
+ /* ............................................................................... */
+
+ /* estilo de footer call */
+.div-call{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}

@@ -1,0 +1,474 @@
+@media screen and (max-width:1370px){
+
+  .foot-b {
+    display: grid;
+    height: 160px;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px;
+    background: #070512;
+    text-align: center;
+    align-items: center;
+  }
+  .bitlap-a {
+    font-size: 36px;
+    color: #4E05B2;
+    padding: 10px;
+    font-weight: 700;
+    margin-right:300px;
+  }
+  nav ul {
+    display: flex;
+    justify-content:space-around;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    list-style: none;
+  }
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+
+
+
+
+  .her {
+    background-image: url('../img/edi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height:50vw;
+    width:100%;
+
+  }
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+/* modificaciones */
+.nav{
+width:100%;
+
+
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  width:100%;
+  padding: 0;
+  position: fixed;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  line-height: 3.9rem;
+  padding: 0 1.0rem;
+  margin:0;
+}
+/* logo bitlap */
+.bitlap-a {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+  margin-right:70px;
+  padding-left: 20px;
+}
+.sub {
+  position: relative;
+  height: 20px;
+}
+.sub-c{
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  display: grid;
+  height: 220px;
+  justify-content: center;
+}
+/* contenido de marcas */
+.content-marc {
+  background: #EEEEEE;
+  display: grid;
+  grid-template-columns: 0px 1fr 0px 1fr 0px 1fr 0px;
+  grid-template-rows: 200px;
+  justify-content: center;
+  text-align: center;
+}
+
+/* identificador de los contenedores de las marcas */
+.mr {
+  margin: auto
+}
+
+.part {
+  height:auto;
+  width: auto;
+  margin: auto;
+}
+
+/* img 2 */
+.part-1 {
+  height: auto;
+  width: auto;
+}
+/* talentos */
+.cont-talentos {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 250px;
+  justify-content: center;
+  grid-gap:10px;
+
+}
+/* boton */
+.sub-button {
+  display: grid;
+  height: 220px;
+  justify-content: center;
+  align-content: center;
+}
+.button-1{
+  border: 1.5px solid #481AE7;
+  border-radius: 4px;
+  height:40px;
+  width:220px;
+  box-sizing: border-box;
+  color:#481AE7;
+  text-align: center;
+  align-items: center;
+  padding-top:7px;
+  cursor: pointer;
+}
+.button-1:hover{
+
+  background:#481AE7;
+  color: white;
+}
+.foot-b{
+  display: grid;
+  grid-template-columns:450px 1fr 450px;
+  background: #070512;
+  text-align: center;
+  align-items: center;
+}
+/* contenido del footer */
+.fo-text{
+  font-family:'Hind';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #FFFFFF;
+
+ }
+ /* estilo de footer call */
+.div-call{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+}
+
+@media screen and (max-width:992px){
+  .her {
+    background-image: url('../img/edi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height:75vw;
+    width:100%;
+
+  }
+
+
+}
+@media screen and (max-width:768px){
+  .sub {
+    position: relative;
+
+  }
+  .sub-c{
+    position: absolute;
+    top: 150px;
+    left:0;
+    display: grid;
+    height: 220px;
+    justify-content: center;
+
+  }
+  /* boton */
+  .button-2{
+    border: 1.5px solid white;
+    border-radius: 4px;
+    height:40px;
+    width:220px;
+    box-sizing: border-box;
+    color:white;
+    text-align: center;
+    align-items: center;
+    padding-top:7px;
+    margin: auto;
+    cursor: pointer;
+  }
+  .button-2:hover{
+    border: 1.5px solid #481AE7;
+    background:#481AE7;
+    color: white;
+  }
+  /* contenedores de marcas */
+  .content-marc {
+    background: #EEEEEE;
+    display: block;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+  }
+  .mr{
+    height:50px;
+  }
+  .cont-talentos {
+    display: block;
+    width: 100%;
+    height: 650px;
+    text-align: center;
+  }
+  .sub-tema {
+    display: grid;
+    height: 220px;
+
+    align-content: center;
+
+  }
+
+  /* boton */
+  .sub-button {
+    display: grid;
+    height:280px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+
+  }
+  .foot-b{
+    display: block;
+    width: 100%;
+    background: #070512;
+    text-align: center;
+    align-items: center;
+  }
+  .fa{
+    height:70px;
+
+  }
+  .b-foo{
+    margin-top:15px;
+  }
+  /* contenido del footer */
+  .fo-text{
+    font-family:'Hind';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+
+   }
+   /* estilo de footer call */
+  .div-call{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+}
+@media screen and (max-width:365px){
+
+  .container{
+    width:100%;
+  }
+  .menutogle {
+    display: inline-block;
+    position: fixed;
+    z-index: 3;
+    color: white;
+    font-size: 35px;
+  }
+
+  .oculto{
+    line-height: 3.9rem;
+    padding: 0 2.5rem;
+    display:block;
+  }
+
+
+  .open {
+    display: block;
+    position: absolute;
+    justify-content: flex-start;
+    margin: 0;
+    width: 100%;
+    top:-120vw;
+    padding: 0;
+    position: fixed;
+    list-style: none;
+    text-align: center;
+    z-index: 2;
+
+  }
+
+  .nav{
+    background:rgba(88, 34, 246, 0.5);
+  }
+
+
+
+
+  .her {
+    background-image: url('../img/edi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height:110vw;
+    width:100%;
+
+
+
+  }
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+/* modificaciones */
+.nav{
+width:100%;
+
+}
+nav ul {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  width:100%;
+  padding: 0;
+  position: fixed;
+  margin:auto;
+}
+
+nav a {
+  color: white;
+  line-height: 3.9rem;
+  padding:0px;
+  margin:auto;
+  text-align: center;
+}
+/* logo bitlap */
+.bitlap-a {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+margin: 0 auto;
+padding: 0
+}
+.sub-c {
+  position: absolute;
+  top:100px;
+  left: 10px;
+  display: grid;
+  height:220px;
+  width: 350px;
+  margin: 0px;
+  text-align: center;
+}
+.boot{
+  width:70%;
+}
+/* botones */
+.button-2{
+  border: 1.5px solid white;
+  border-radius: 4px;
+  height:40px;
+  width:220px;
+  box-sizing: border-box;
+  color:white;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  margin:auto;
+}
+/* contenedor marcas */
+.content-marc {
+  background: #EEEEEE;
+  display: block;
+  width:100%;
+  height: 400px;
+}
+.mr{
+  height: 50px;
+}
+.part-2{
+  width: 40%;
+}
+.sub-des{
+  margin-left:20px;
+  width:300px;
+}
+.sub-tema {
+  display: grid;
+  height: 220px;
+
+  align-content: center;
+}
+.cont-talentos {
+  display: block;
+  text-align:center;
+  width: 100%;
+}
+/* botones */
+.sub-button {
+  display: grid;
+  height: 220px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.foot-b {
+  display: grid;
+  height: 160px;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 50px 50px;
+  background: #070512;
+  text-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:310px){
+  nav a {
+    color: white;
+    line-height: 2.9rem;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+  }
+    .sub-c {
+    position: absolute;
+    top:100px;
+    left: 10px;
+    display: grid;
+    height:220px;
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+  }
+}
+}

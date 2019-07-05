@@ -1,0 +1,260 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width:100%;
+}
+.menutogle{
+  color:white; font-size:35px; margin:auto; display:none;
+}
+.closemnu{
+color:white; font-size:25px; margin:auto;
+}
+.oculto{
+  line-height: 3.9rem;
+  padding: 0 2.5rem;
+  display:none;
+}
+
+.her {
+  background-image: url('../img/edi.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height:45vw;
+  z-index: 1;
+
+
+
+}
+
+.her::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(24, 24, 24, 0.1);
+  z-index: -1;
+
+}
+
+/* estilo de enlaces */
+.item {
+  font-family: 'Lato';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+/* icono bitlab */
+.bitlap-a {
+  font-size: 36px;
+  color: white;
+  padding: 10px;
+  font-weight:700;
+  margin-right:900px;
+}
+
+/* jquery efectos para el nav en el ul */
+#navb {
+  display: flex;
+  justify-content: flex-start;
+  background-color: transparent;
+  transition: background-color 0.4s ease-out;
+}
+.nav{
+  width: 100%;
+}
+/* posicion del menu */
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  position: fixed;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  line-height: 3.9rem;
+  padding: 0 2.5rem;
+  text-decoration: none;
+  display: block;
+}
+nav a:hover{
+  color: white;
+  border-bottom:2px solid #19D9D9;
+  margin-bottom: 2px;
+}
+
+/* contenedor de boton de partner */
+.sub {
+  position: relative;
+  height: 20px;
+}
+.sub-c{
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  display: grid;
+  height: 220px;
+  justify-content: center;
+}
+
+/* contenedor de marcas */
+.content-marc {
+  background: #EEEEEE;
+  display: grid;
+  grid-template-columns: 1fr 300px 300px 300px 300px 300px 1fr;
+  grid-template-rows: 200px;
+  justify-content: center;
+  text-align: center;
+}
+
+/* identificador de los contenedores de las marcas */
+.mr {
+  margin: auto
+}
+
+/* img 1 */
+.part {
+  height:auto;
+  width: auto;
+
+}
+
+/* img 2 */
+.part-1 {
+  height: auto;
+  width: auto;
+}
+.part-2{
+  height: auto;
+  width: auto;
+}
+
+/* contenedor de sub tema */
+.sub-tema {
+  display: grid;
+  height: 220px;
+
+  align-content: center;
+}
+
+/* estilo de sub tema */
+.sub-des {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000000;
+  margin-left:50px;
+  width: 500px;
+
+}
+
+/* contenedor de talentos */
+.cont-talentos {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 350px;
+  justify-content: center;
+  grid-gap:20px;
+  height: 20vw;
+}
+
+/* contenedores informativos */
+.tl {
+
+}
+/* imagenes */
+.iconst{
+  margin:0px;
+}
+/* sub temas */
+.sub-des-1 {
+  font-family: ' Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+}
+
+/* parrafos */
+.parrafos-ali {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #2E2E2E;
+}
+/* contenedor del button */
+.sub-button {
+  display: grid;
+  height: 220px;
+  justify-content: center;
+
+}
+/* estilo botones */
+
+.button-1{
+  border: 1.5px solid #481AE7;
+  border-radius: 4px;
+  height:40px;
+  width:220px;
+  box-sizing: border-box;
+  color:#481AE7;
+  text-align: center;
+  align-items: center;
+  padding-top:7px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button-1:hover{
+
+  background:#481AE7;
+  color: white;
+}
+.button-2{
+  border: 1.5px solid white;
+  border-radius: 4px;
+  height:40px;
+  width:220px;
+  box-sizing: border-box;
+  color:white;
+  text-align: center;
+  align-items: center;
+  padding-top:7px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button-2:hover{
+  border: 1.5px solid #481AE7;
+  background:#481AE7;
+  color: white;
+}
+
+/* estilos de footer */
+
+/* contenido del footer */
+.fo-text{
+  font-family:'Hind';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #FFFFFF;
+
+ }
+ /* estilo de footer call */
+.div-call{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}

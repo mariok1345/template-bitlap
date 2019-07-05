@@ -1,0 +1,711 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+  margin:0;
+  padding: 0;
+}
+
+.container{
+width: 100%;
+
+}
+.menutogle{
+  color:white; font-size:35px; margin:auto; display:none;
+}
+.closemnu{
+color:white; font-size:25px; margin:auto;
+}
+.oculto{
+  line-height: 3.9rem;
+  padding: 0 2.5rem;
+  display:none;
+}
+
+  /*foto de fondo  */
+.her{
+  background-image: url('../img/bitlab.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  height:50vw;
+  z-index: 1;
+
+}
+
+.her::after{
+  position:absolute;
+  content: '';
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(24, 24, 24, 0.4);
+  z-index:-1;
+
+}
+/* estilo de enlaces */
+.item {
+  font-family: 'Lato';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+}
+/* icono bitlab */
+.bitlap{
+  font-size:36px;
+  color: white;
+  font-weight:700;
+  padding: 10px;
+  margin-right:900px;
+
+}
+
+/* jquery efectos para el nav en el ul */
+#navb {
+  display: flex;
+  justify-content: flex-start;
+  background-color:transparent;
+  transition: background-color 0.4s ease-out;
+
+}
+
+
+/* posicion del menu */
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  list-style: none;
+
+}
+/* hover del menu */
+nav a {
+  color: white;
+  line-height: 3.9rem;
+  padding: 0 2.5rem;
+  text-decoration: none;
+  display: block;
+}
+nav a:hover{
+  color: white;
+  border-bottom:2px solid #19D9D9;
+  margin-bottom: 2px;
+}
+
+
+
+
+.sub {
+  position: relative;
+  height: 20px;
+
+}
+.sub-c{
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  display: grid;
+  height: 220px;
+  justify-content: center;
+}
+
+
+
+.dig {
+  margin-right: 20px;
+
+}
+.dig {
+  width: 100%;
+  margin: 0px;
+}
+
+.columns {
+  width: 100%;
+}
+
+
+
+.is-outlined {
+  width: 250px;
+}
+
+.sub-item-1 {
+  color: #000000;
+  font-family: 'Francois One', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center
+}
+
+.sub-item-2 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.est-1 {
+  color: #5822F6;
+}
+
+.col-cont {
+  display: grid;
+  grid-template-columns: 380px 310px 380px;
+  grid-template-rows: 140px 140px;
+  grid-gap: 40px;
+  width: 100%;
+  justify-content: center;
+}
+
+#a-1 {
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#a-2 {
+  display: flex;
+  justify-content: center;
+}
+
+#a-3 {
+  display: flex;
+  justify-content: center;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#a-4 {
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#a-5 {
+  display: flex;
+  justify-content: center;
+}
+
+#a-6 {
+  display: flex;
+  justify-content: center;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.e {
+  width: 298px;
+  height: 135px;
+  transition-duration: 0.2s;
+}
+
+.e:hover, .e:focus, .e:active {
+  -webkit-transform: scale(1.09);
+  transform: scale(1.09);
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 7px 16px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* imagenes de modal */
+.icon-1 {
+  height: 35px;
+
+}
+
+.icon-2 {
+  height: 35px;
+
+}
+
+.icon-3 {
+  height: 35px;
+
+}
+
+.icon-4 {
+  height: 35px;
+
+}
+
+.icon-5 {
+  height: 35px;
+
+}
+
+.icon-6 {
+  height: 35px;
+
+}
+
+/* contenido de los div parrafos informativos */
+.p-sub {
+  font-family:'Lato';
+  font-weight: lighter;
+  font-size: 14px;
+  color: #2E2E2E;
+  margin-left: 20px;
+}
+
+/* conteiner que deseas aprender */
+.conteiner-a {
+  display: grid;
+  justify-content: flex-end;
+  position: relative;
+}
+
+
+
+/* contenedor de imagenes e interes */
+.div-ap {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: #F7F7F7;
+  width: 1711px;
+  height: 662px;
+}
+
+/* imagenes */
+.cont-img-rec {
+  position: absolute;
+  left: 20px;
+  top: 17%;
+}
+
+.cont-lap {
+  position: absolute;
+  left: 0px;
+  top: 10%;
+}
+
+/* conteirner de interes */
+.conteiner-b {
+  width: 950px;
+  height: 500px;
+  margin-left: 20%;
+  display: grid;
+  grid-template-columns: 404px 404px;
+  grid-template-rows: 108px 108px;
+  grid-gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+/* sub tema */
+.sub-tem-2 {
+  color: #000000;
+  font-family: 'Francois One', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  transform: translateY(80px);
+}
+
+.sub-tem-3 {
+  color: #000000;
+  font-family: 'Francois One', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left:50px;
+}
+
+/* opciones general estilos */
+.opc {
+  background-color: #FFFFFF;
+  border-radius: 4.8px;
+}
+
+/* contenido de opciones */
+.la {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+}
+
+.le {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+}
+
+.lo {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+}
+
+.lu {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+}
+
+/* tamano iconos */
+.softwareware {
+  font-size: 38px;
+  color: #5822F6;
+}
+
+.diseñods {
+  font-size: 48px;
+  color: #5822F6;
+}
+
+.estrategiamn {
+  font-size: 48px;
+  color: #5822F6;
+}
+
+.emprendimientorsi {
+  font-size: 48px;
+  color: #5822F6;
+}
+
+/* estilo de subtemas de contenido de cursos */
+.sub-tem3 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+
+/* hovers background */
+.la:hover>.devs {
+  cursor: pointer;
+  background: #481AE7;
+  color: white;
+}
+
+.la:hover>.divs {
+  cursor: pointer;
+  background: #00D2E5;
+  color: white;
+}
+
+.devs:hover .softwareware {
+  color: white;
+}
+
+.le:hover>.devs {
+  cursor: pointer;
+  background: #481AE7;
+  color: white;
+}
+
+.le:hover>.divs {
+  cursor: pointer;
+  background: #00D2E5;
+  color: white;
+}
+
+.devs:hover .diseñods {
+  color: white;
+}
+
+.lo:hover>.devs {
+  cursor: pointer;
+  background: #481AE7;
+  color: white;
+}
+
+.lo:hover>.divs {
+  cursor: pointer;
+  background: #00D2E5;
+  color: white;
+}
+
+.devs:hover .estrategiamn {
+  color: white;
+}
+
+.lu:hover>.devs {
+  cursor: pointer;
+  background: #481AE7;
+  color: white;
+}
+
+.lu:hover>.divs {
+  cursor: pointer;
+  background: #00D2E5;
+  color: white;
+}
+
+.devs:hover .emprendimientorsi {
+  color: white;
+}
+
+/* icono arrow */
+.angle-righta {
+  font-size: 25px;
+  display: none;
+}
+
+/* hover */
+.la:hover .angle-righta {
+  color: white;
+  display: flex;
+}
+
+.le:hover .angle-righta {
+  color: white;
+  display: flex;
+}
+
+.lo:hover .angle-righta {
+  color: white;
+  display: flex;
+}
+
+.lu:hover .angle-righta {
+  color: white;
+  display: flex;
+}
+
+/* contenido dentro de devs y divs */
+.devs {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  align-content: center;
+}
+
+.divs {
+  display: grid;
+  align-items: center;
+}
+
+.div-imgse {
+  margin: auto;
+}
+
+/* cursos gratis */
+.cont-curs {
+  display: grid;
+  grid-template-columns: 610px 610px;
+  grid-auto-rows: 345px 345px;
+  justify-content: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+}
+
+.contrs {
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: 260px 1fr;
+  transition-duration: 0.5s;
+}
+/* efectos en divs de cursos */
+.contrs:hover, .contrs:focus, .contrs:active {
+  -webkit-transform: scale(.9);
+  transform: scale(.9);
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 7px 16px 1px rgba(0, 0, 0, 0.3);
+}
+/* contenedores de horarios y informacion de cursos */
+.vi {
+  grid-column: 1;
+  grid-row: 1/3;
+  background-image:url('../img/curs-1.jpg');
+  background-repeat: no-repeat;
+  background-size: 240px;
+}
+.vu {
+  grid-column: 1;
+  grid-row: 1/3;
+  background-image:url('../img/curs-2.jpg');
+  background-repeat: no-repeat;
+  background-size: 240px;
+}
+
+.vc {
+  grid-column: 1;
+  grid-row: 1/3;
+  background-repeat: no-repeat;
+  background-image:url('../img/curs-3.jpg');
+  background-size: 240px;
+}
+.vo {
+  grid-column: 1;
+  grid-row: 1/3;
+  background-repeat: no-repeat;
+  background-image:url('../img/curs-4.jpg');
+  background-size: 240px;
+}
+
+
+
+.vb {
+  border: 1px solid #F0F0F0;
+}
+/* display del button y la hora */
+.vd {
+  border: 1px solid #F0F0F0;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* contenido de profesores y cursos */
+.tems-curs {
+  font-family: 'Montserrat';
+  font-weight:bold;
+  color: black;
+  font-size: 25px;
+  padding-left: 25px;
+  width: 330px;
+  margin: 0px;
+}
+
+.item-prof {
+  font-family: 'Lato';
+  color: black;
+  font-weight: 900;
+  font-size: 14px;
+  padding-left:25px;
+}
+
+.tems-curs-cont {
+  color: #2E2E2E;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  padding-left:15px;
+}
+/* botones y hora */
+.hora{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #000000;
+
+}
+/* estilos botones */
+.button-1{
+  border: 1.5px solid #481AE7;
+  border-radius: 4px;
+  height:40px;
+  width:100px;
+  box-sizing: border-box;
+  color:#481AE7;
+  text-align: center;
+  align-items: center;
+  padding-top:7px;
+  text-decoration: none;
+
+}
+.button-1:hover{
+
+  background:#481AE7;
+  color: white;
+}
+.button-2{
+  border: 1.5px solid white;
+  border-radius: 4px;
+  height:40px;
+  width:220px;
+  box-sizing: border-box;
+  color:white;
+  text-align: center;
+  align-items: center;
+  padding-top:7px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button-2:hover{
+  border: 1.5px solid #481AE7;
+  background:#481AE7;
+  color: white;
+}
+/* noticias */
+.cont-noticias{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height:30vw;
+  position:relative;
+
+}
+/* estilo a divs */
+.noti-2{
+  position: absolute;
+  left:40%;
+  top:100px;
+}
+
+/* noticias contenido font */
+.not-itema{
+  font-family:' Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+color: #000000;
+}
+.not-itemb{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+color: #000000;
+
+}
+.not-par{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #2E2E2E;
+
+}
+/* estilo imagenes */
+.ov-1{
+  position: absolute;
+  left:10px;
+}
+.ov-2{
+    position: absolute;
+    left:80px;
+}
+.ov-3{
+    position: absolute;
+    left:140px;
+    top:70px;
+}
+/* estilo footer */
+.foot-b{
+  display: grid;
+  height: 60px;
+  grid-template-columns:750px 1fr 750px;
+  background: #070512;
+  text-align: center;
+  align-items: center;
+}
+/* contenido del footer */
+.fo-text{
+  font-family:'Hind';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #FFFFFF;
+
+ }
+ /* estilo de footer call */
+.div-call{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}

@@ -1,0 +1,293 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.her {
+  background-image: url('../img/moreskills.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 35vw;
+  z-index: 1;
+
+
+
+}
+
+.her::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(24, 24, 24, 0.1);
+  z-index:-1;
+}
+.menutogle{
+  color:white; font-size:35px; margin:auto; display:none;
+}
+.closemnu{
+color:white; font-size:25px; margin:auto;
+}
+.oculto{
+  line-height: 3.9rem;
+  padding: 0 2.5rem;
+  display:none;
+}
+
+
+
+
+/* estilo de enlaces */
+.item {
+  font-family: 'Lato';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+/* icono bitlab */
+.bitlap-a {
+  font-size: 36px;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+  margin-right:900px;
+}
+
+/* jquery efectos para el nav en el ul */
+
+.nav{
+  width: 100%;
+  background:transparent;
+}
+
+
+
+/* posicion del menu */
+#navb ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  position: fixed;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  line-height: 3.9rem;
+  padding: 0 2.5rem;
+  text-decoration: none;
+  display: block;
+  font-family: 'Lato';
+}
+
+nav .item-a:hover{
+  color: white;
+  border-bottom:2px solid #19D9D9;
+  margin-bottom: 2px;
+}
+
+/* hero tema */
+.sub {
+  position: relative;
+  height: 20px;
+}
+.sub-c{
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  display: grid;
+  height: 220px;
+  justify-content: center;
+}
+/* parrafo becas */
+.p-eventos{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+
+color: #FFFFFF;
+}
+/* contenedores de eventos */
+.cont-eventos{
+  display: grid;
+  grid-template-columns:1200px;
+  grid-template-rows: 338px 338px;
+  justify-content: center;
+  grid-row-gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+}
+
+.tos{
+  border: 1px solid #DCDCDC;
+}
+
+/* contenedor para fotos */
+.ev{
+  display: grid;
+  grid-template-columns: 1fr 421px;
+
+}
+.sub-fotos{
+  background-image: url('../img/eventos-i.jpg');
+
+}
+.p-event{
+
+font-family:' Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+color: #121212;
+margin-left: 50px;
+}
+/* parrafps */
+.t-p {
+  color: #000000;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  width: 557px;
+  text-align: left;
+  margin-left: 50px;
+}
+.t-p2{
+  color: #9B9B9B;
+ font-family: Lato;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 25.6px;
+ text-align: left;
+  margin-left: 50px;
+}
+/* contenedor de sub temas */
+.h-sub{
+  margin-top:100px;
+}
+/* div form */
+.cont-form{
+  background-image: url('../img/im-form.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  height:50vw;
+  grid-template-columns: 1fr 1fr;
+    background-color :#F7F7F7;
+  align-content: space-around;
+
+}
+.pa-1{
+  text-align:left;
+  align-self: center;
+  margin: auto;
+}
+.form-contac{
+  background: white;
+  height: 500px;
+  width: 470px;
+  display:block;
+  text-align: left;
+
+}
+/* input */
+input{
+  border:0;
+  border-bottom:1px solid black ;
+  margin-left: 50px;
+}
+/* font formulario */
+.form-font-1{
+margin-left: 50px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+
+
+color: #4B4B4B;
+
+}
+.form-font-2{
+  font-family: Hind;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+margin-left: 50px;
+
+color: #4B4B4B;
+
+}
+.font-3{
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 131% */
+
+
+color: #FFFFFF;
+
+}
+.font-4{
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-size: 45px;
+  font-weight: 700;
+}
+/* botton */
+
+.button-1{
+  border: 1.5px solid #481AE7;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color:#481AE7;
+  text-align: center;
+  align-items: center;
+  padding:10px 90px;
+  cursor: pointer;
+  margin-left:80px;
+  text-decoration: none;
+
+}
+.button-1:hover{
+
+  background:#481AE7;
+  color: white;
+}
+/* footer */
+.foot-b{
+  display: grid;
+  height: 60px;
+  grid-template-columns:750px 1fr 750px;
+  background: #070512;
+  text-align: center;
+  align-items: center;
+}
+/* contenido del footer */
+.fo-text{
+  font-family:'Hind';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #FFFFFF;
+
+ }
+ /* estilo de footer call */
+.div-call{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}

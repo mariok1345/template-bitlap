@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.her {
+
+}
+
+
+/* estilo de enlaces */
+.item {
+  font-family: 'Lato';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+/* icono bitlab */
+.bitlap-a {
+  font-size: 36px;
+  color: #4E05B2;
+  padding: 10px;
+  font-weight: 700;
+  margin-right:900px;
+}
+
+/* jquery efectos para el nav en el ul */
+#navb {
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  transition: background-color 0.4s ease-out;
+}
+.nav{
+  width: 100%;
+  background:white;
+}
+
+
+
+/* posicion del menu */
+#navb ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  position: fixed;
+  list-style: none;
+}
+
+nav a {
+  color: #4E05B2;
+  line-height: 3.9rem;
+  padding: 0 2.5rem;
+  text-decoration: none;
+  display: block;
+  font-family: 'Lato';
+}
+nav .item-a:hover{
+  color:  #19D9D9;
+  border-bottom:2px solid #19D9D9;
+  margin-bottom: 2px;
+}
+.estamos-tra{
+  display:grid;
+  text-align: center;
+  align-content: center;
+  height: 40vw;
+
+}
+.center{
+  align-self: center;
+}
