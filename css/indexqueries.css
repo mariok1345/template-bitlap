@@ -261,7 +261,7 @@
   }
 }
 
-@media screen and (max-width:365px) {
+@media screen and (max-width:370px) {
   .menutogle {
     display: inline-block;
     position: fixed;

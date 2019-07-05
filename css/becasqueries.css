@@ -227,7 +227,7 @@
     align-items: center;
   }
 }
-@media screen and (max-width:365px){
+@media screen and (max-width:370px){
 
   .her {
     background-image: url('../img/becas.jpg');
