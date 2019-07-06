@@ -5,21 +5,21 @@ $(document).ready(function() {
 
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 900) {
+	  if (scroll > 500) {
 	    $(".nav").css("background" , "rgba(7, 5, 18, 0.5)");
 
 	  }
 	  else{
 		  $(".nav").css("background" , "transparent");
 	  }
-    if (scroll > 300) {
+    if (scroll > 500) {
 	   $(".bitlap-a").css("color" , " #481AE7");
 	  }
 	  else{
 	     $(".bitlap-a").css("color" , " white");
 	  }
-    if (scroll > 300) {
-     $(".item-a").css("color" , " white");
+    if (scroll > 500) {
+     $(".item-a").css("color" , " #481AE7");
     }
     else{
        $(".item-a").css("color" , " white");

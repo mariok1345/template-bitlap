@@ -10,19 +10,19 @@ $(document).ready(function() {
 
 	  }
 	  else{
-		  $(".nav").css("background" , "transparent");
+		  $(".nav").css("background" , "rgba(7, 5, 18, 0.5)");
 	  }
     if (scroll > 300) {
 	   $(".bitlap-a").css("color" , " white");
 	  }
 	  else{
-	     $(".bitlap-a").css("color" , "");
+	     $(".bitlap-a").css("color" , "white");
 	  }
     if (scroll > 300) {
      $(".item-a").css("color" , " white");
     }
     else{
-       $(".item-a").css("color" , "");
+       $(".item-a").css("color" , "white");
     }
 
 

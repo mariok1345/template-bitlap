@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1366px) {
 
   /*foto de fondo  */
   .her {
@@ -261,7 +261,7 @@
   }
 }
 
-@media screen and (max-width:591px) {
+@media screen and (max-width:595px) {
   .menutogle {
     display: inline-block;
     position: fixed;
@@ -427,6 +427,7 @@
   .cont-curs {
     display: block;
     justify-content: center;
+    margin: auto;
     width: 360px;
   }
 

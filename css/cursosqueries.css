@@ -18,14 +18,25 @@
     margin-right:300px;
   }
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:1366px){
   .bitlap-a {
     font-size: 36px;
     color: #4E05B2;
     padding: 10px;
     font-weight: 700;
-    margin-right:300px;
+    margin-right:70px;
+
   }
+  #navb ul {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width:100%;
+    padding: 0;
+    position: fixed;
+    margin: 0;
+  }
+
   .foot-b {
     display: grid;
     height: 160px;
@@ -173,6 +184,68 @@
     justify-content: center;
 
 }
+}
+@media screen and (max-width:595px){
+  .menutogle {
+    display: inline-block;
+    position: fixed;
+    z-index: 3;
+    color: black;
+    font-size: 35px;
+  }
+
+  .oculto{
+    line-height: 3.9rem;
+    padding: 0 2.5rem;
+    display:block;
+  }
+
+
+  .open {
+    display: block;
+    position: absolute;
+    justify-content: flex-start;
+    margin: 0;
+    width: 100%;
+    top:-120vw;
+    padding: 0;
+    position: fixed;
+    list-style: none;
+    text-align: center;
+    z-index: 2;
+
+  }
+  .nav{
+    background:rgba(7, 5, 18, 0.5);
+  }
+  #navb ul {
+    display:block;
+    justify-content: flex-start;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    list-style: none;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    line-height: 3.9rem;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato';
+  }
+  .bitlap-a {
+    font-size: 36px;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    margin: auto;
+  }
+  .sub-tem{
+    margin-left:60px;
+  }
 }
 @media screen and (max-width:370px){
   .body{

@@ -2,7 +2,7 @@
 
   .bitlap-a {
     font-size: 36px;
-    color: #4E05B2;
+    color: white;
     padding: 10px;
     font-weight: 700;
     margin-right:300px;
@@ -35,13 +35,22 @@
 
 
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:1366px){
+  #navb ul {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width:100%;
+    padding: 0;
+    position: fixed;
+    margin: 0;
+  }
   .bitlap-a {
     font-size: 36px;
-    color: #4E05B2;
+    color: white;
     padding: 10px;
     font-weight: 700;
-    margin-right:300px;
+    margin-right:70px;
   }
   .sub-c{
     position: absolute;
@@ -227,7 +236,7 @@
     align-items: center;
   }
 }
-@media screen and (max-width:370px){
+@media screen and (max-width:595px){
 
   .her {
     background-image: url('../img/becas.jpg');
@@ -235,7 +244,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    height:90vw;
+    height:50vw;
     z-index: 1;
 
   }
@@ -270,9 +279,7 @@
 
 
   }
-  .nav{
-    background:rgba(88, 34, 246, 0.5);
-  }
+
   #navb ul {
     display:block;
     justify-content: flex-start;
@@ -282,6 +289,7 @@
     position: fixed;
     list-style: none;
     text-align: center;
+      background:rgba(88, 34, 246, 0.5);
   }
 
   .bitlap-a {
@@ -304,7 +312,7 @@
     top:50px;
     left:10px;
     display: grid;
-    height:120px;
+    height:200px;
     justify-content: center;
   }
   .every-img{

@@ -5,13 +5,13 @@ $(document).ready(function() {
 
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 900) {
+	  if (scroll > 500) {
 	    $(".nav").css("background" , "rgba(7, 5, 18, 0.5)");
 
 	  }
 
 	  else{
-		  $(".nav").css("background" , "");
+		  $(".nav").css("background" , "transparent");
 	  }
   });
 

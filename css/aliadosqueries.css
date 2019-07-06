@@ -12,7 +12,7 @@
   }
   .bitlap-a {
     font-size: 36px;
-    color: #4E05B2;
+    color: white;
     padding: 10px;
     font-weight: 700;
     margin-right:300px;
@@ -31,7 +31,7 @@
 
 
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1366px) {
 
 
 
@@ -78,7 +78,7 @@ nav a {
   color: white;
   font-weight: 700;
   margin-right:70px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .sub {
   position: relative;
@@ -156,7 +156,7 @@ nav a {
   grid-template-columns:450px 1fr 450px;
   background: #070512;
   text-align: center;
-  align-items: center;
+  height:70px;
 }
 /* contenido del footer */
 .fo-text{
@@ -289,7 +289,7 @@ color: #FFFFFF;
   }
 
 }
-@media screen and (max-width:370px){
+@media screen and (max-width:595px){
 
   .container{
     width:100%;
@@ -324,9 +324,6 @@ color: #FFFFFF;
 
   }
 
-  .nav{
-    background:rgba(88, 34, 246, 0.5);
-  }
 
 
 
