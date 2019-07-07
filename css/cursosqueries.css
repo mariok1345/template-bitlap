@@ -186,6 +186,7 @@
 }
 }
 @media screen and (max-width:595px){
+
   .menutogle {
     display: inline-block;
     position: fixed;
@@ -215,8 +216,11 @@
     z-index: 2;
 
   }
+  #software,#strategy,#uxui,#entrepreneur{
+    color:#4E05B2;
+  }
   .nav{
-    background:rgba(7, 5, 18, 0.5);
+    background: rgba(88, 34, 246, 0.5);
   }
   #navb ul {
     display:block;
@@ -298,13 +302,13 @@
 
   .bitlap-a {
     font-size: 36px;
-    color: #4E05B2;
+    color: white;
     padding: 10px;
     font-weight: 700;
     margin: auto;
   }
   nav a {
-    color: #4E05B2;
+    color: white;
     line-height: 3.9rem;
     padding: 0 1.5rem;
     text-decoration: none;
@@ -321,7 +325,6 @@
     justify-content: center;
     margin:0;
     padding:0;
-    z-index: 1;
   }
   .sub-tem{
     font-family: 'Montserrat';

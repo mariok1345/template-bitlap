@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 	  }
 	  else{
-		  $(".nav").css("background" , "transparent");
+		  $(".nav").css("background" , "rgba(88, 34, 246, 0.5)");
 	  }
     if (scroll > 300) {
 	   $(".bitlap-a").css("color" , " white");

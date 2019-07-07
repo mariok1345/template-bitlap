@@ -244,7 +244,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    height:50vw;
+    height:90vw;
     z-index: 1;
 
   }
@@ -343,7 +343,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-
+  padding-bottom:20px;
   margin: 0px;
   color: #2E2E2E;
 

@@ -341,14 +341,14 @@ color: #FFFFFF;
 
 
   }
+  .nav{
+    background:rgba(88, 34, 246, 0.5);
+  }
 
 
 /* ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
 /* modificaciones */
-.nav{
-width:100%;
 
-}
 nav ul {
   display: block;
   justify-content: center;
@@ -358,6 +358,7 @@ nav ul {
   padding: 0;
   position: fixed;
   margin:auto;
+
 }
 
 nav a {

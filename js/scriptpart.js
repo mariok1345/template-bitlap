@@ -10,16 +10,16 @@ $(document).ready(function() {
 
 	  }
 	  else{
-		  $(".nav").css("background" , "transparent");
+		  $(".nav").css("background" , "rgba(88, 34, 246, 0.5)");
 	  }
     if (scroll > 500) {
-	   $(".bitlap-a").css("color" , " #481AE7");
+	   $(".bitlap-a").css("color" , " white");
 	  }
 	  else{
 	     $(".bitlap-a").css("color" , " white");
 	  }
     if (scroll > 500) {
-     $(".item-a").css("color" , " #481AE7");
+     $(".item-a").css("color" , " white");
     }
     else{
        $(".item-a").css("color" , " white");

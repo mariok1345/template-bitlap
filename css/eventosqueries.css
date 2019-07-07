@@ -331,7 +331,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    height: 50vw;
+    height: 90vw;
     z-index: 1;
 
   }
@@ -531,6 +531,12 @@
   }
 }
 @media screen and (width:310px){
+  .her {
+
+    height:90vw;
+
+
+  }
   .cont-eventos{
     display: grid;
     grid-template-columns:300px;
